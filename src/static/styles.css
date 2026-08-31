@@ -74,6 +74,41 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 2px solid #e0e0e0;
+}
+
+.participants-section h5 {
+  font-size: 14px;
+  color: #0066cc;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.participants-section ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.participants-section li {
+  padding: 6px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.participants-section li:before {
+  content: "👤 ";
+  margin-right: 6px;
+}
+
+.no-participants {
+  font-size: 14px;
+  color: #999;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
